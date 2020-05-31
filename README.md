@@ -3,8 +3,9 @@ Optical Character recognition for licence plates using connectionist temporal cl
 
 ### Introduction
 
-What we are dealing with is an optical character recognition technique that leverages deep learning  mechanism to make predictions about what a particular character or word in an image in our case which is licence plate detection.
-Connectionist Temporal Classification (CTC) is a way to get around not knowing the alignment between the input and the output. As we’ll see, it’s especially well suited to applications like speech and handwriting recognition.
+This is an optical character recognition technique that leverages deep learning  mechanism to make predictions about what particular character or word is in an image which in our case which is licence plate detection.
+I have used CTC loss along with a convoluted bi-GRU network.
+Connectionist Temporal Classification (CTC) is a way to get around not knowing the alignment between the input and the output. As we’ll see, it’s especially well suited to applications like speech and character recognition in images.
 
 ### Model Structure
 
