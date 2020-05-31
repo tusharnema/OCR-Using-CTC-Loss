@@ -10,5 +10,5 @@ Connectionist Temporal Classification (CTC) is a way to get around not knowing t
 
 The model input is image data, and we first feed the data to two convolutional networks to extract the image features, followed by the Reshape and Dense to reduce the dimensions of the feature vectors before letting the bidirectional GRU process the sequential data. The sequential data feed to the GRU is the horizontally divided image features. The final output Dense layer transforms the output for a given image to an array with the shape of (32, 28) representing (#of horizontal steps, #char labels).
 <p align="center"> 
-<img src='base-model.jpg' width="500">
+<img src='base-model.jpg' width="800">
 </p>
