@@ -28,5 +28,7 @@ In the decoding phase, following actions take place.
 Some of the results of predicted licence number plate is shown in **ocr_infer.ipynb**. \
 
 ### Testing on your own Dataset
-Make a folder "test"
-Run all the cells of ocr_infer.ipynb
+<ol type="a">
+  <li>Make a folder "test" </li>
+  <li>Run all the cells of ocr_infer.ipynb </li>
+</ol>
