@@ -25,4 +25,8 @@ In the decoding phase, following actions take place.
 - Then remove blank tokens.
 
 ### Testing
-Some of the results of predicted licence number plate is shown in **ocr_infer.ipynb**. 
+Some of the results of predicted licence number plate is shown in **ocr_infer.ipynb**. \
+
+### Testing on your own Dataset
+Make a folder "test"
+Run all the cells of ocr_infer.ipynb
