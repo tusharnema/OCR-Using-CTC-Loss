@@ -7,13 +7,16 @@ This is an optical character recognition technique that leverages deep learning 
 I have used CTC loss along with a convoluted bi-GRU network.
 Connectionist Temporal Classification (CTC) is a way to get around not knowing the alignment between the input and the output. As we’ll see, it’s especially well suited to applications like speech and character recognition in images.
 
+## General Information
+- This is an inspired from the paper ["An End-to-End Trainable Neural Network for Image-based Sequence Recognition and Its Application to Scene Text Recognition"](https://arxiv.org/abs/1507.05717)
+
 ### Model Structure
 
 The model input is image data, and we first feed the data to two convolutional networks to extract the image features, followed by the Reshape and Dense to reduce the dimensions of the feature vectors before letting the bidirectional GRU process the sequential data. The sequential data feed to the GRU is the horizontally divided image features. The final output Dense layer transforms the output for a given image to an array with the shape of (32, 28) representing (#of horizontal steps, #char labels).
 
 ### Training
 ```bash
-python ocr_train.ipynb
+ocr_train.ipynb
 ```
 We use architecture followed in the OCR example provided in the Official Keras GitHub repository. The model structure is given below.
 
@@ -31,7 +34,7 @@ In the decoding phase, following actions take place.
 Some of the results of predicted licence number plate is shown in **ocr_infer.ipynb**. \
 
 ```bash
-python ocr_infer.ipynb
+ocr_infer.ipynb
 ```
 
 ### Testing on your own Dataset
