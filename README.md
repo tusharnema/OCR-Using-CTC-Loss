@@ -31,7 +31,7 @@ In the decoding phase, following actions take place.
 - Then remove blank tokens.
 
 ### Testing
-Some of the results of predicted licence number plate is shown in **ocr_infer.ipynb**. \
+Some of the results of predicted licence number plate is shown in **ocr_infer.ipynb**. 
 
 ```bash
 ocr_infer.ipynb
