@@ -7,7 +7,7 @@ This is an optical character recognition technique that leverages deep learning 
 I have used CTC loss along with a convoluted bi-GRU network.
 Connectionist Temporal Classification (CTC) is a way to get around not knowing the alignment between the input and the output. As we’ll see, it’s especially well suited to applications like speech and character recognition in images.
 
-## General Information
+### General Information
 - This is an inspired from the paper ["An End-to-End Trainable Neural Network for Image-based Sequence Recognition and Its Application to Scene Text Recognition"](https://arxiv.org/abs/1507.05717)
 
 ### Model Structure
